@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 #configuration file
 FIREWALLD_FILE="/etc/firewalld/zones/trusted.xml"
 
