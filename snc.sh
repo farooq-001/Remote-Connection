@@ -27,10 +27,6 @@ echo -e "    - port: 2244\n      proto: tcp\n      groups:\n        - ssh" | tee
 systemctl restart firewalld ztn
 
 
-
-
-
-
 # Define variables
 SSHD_CONFIG_SNC="/etc/ssh/sshd_config_snc"
 SERVICE_NAME="snc.service"
